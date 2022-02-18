@@ -17,6 +17,8 @@
 		091976F327BFF5C9009B899E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091976C927BFF5C6009B899E /* ContentView.swift */; };
 		091976F427BFF5C9009B899E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091976CA27BFF5C9009B899E /* Assets.xcassets */; };
 		091976F527BFF5C9009B899E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091976CA27BFF5C9009B899E /* Assets.xcassets */; };
+		0919770527BFF5DF009B899E /* Differential Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919770427BFF5DF009B899E /* Differential Equation.swift */; };
+		0919770627BFF5DF009B899E /* Differential Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919770427BFF5DF009B899E /* Differential Equation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		091976E827BFF5C9009B899E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		091976EC27BFF5C9009B899E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		091976EE27BFF5C9009B899E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		0919770427BFF5DF009B899E /* Differential Equation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Differential Equation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				091976C827BFF5C6009B899E /* Differential_1D_SchrodingerApp.swift */,
 				091976C927BFF5C6009B899E /* ContentView.swift */,
+				0919770427BFF5DF009B899E /* Differential Equation.swift */,
 				091976CA27BFF5C9009B899E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -300,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				091976F227BFF5C9009B899E /* ContentView.swift in Sources */,
+				0919770527BFF5DF009B899E /* Differential Equation.swift in Sources */,
 				091976F027BFF5C9009B899E /* Differential_1D_SchrodingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				091976F327BFF5C9009B899E /* ContentView.swift in Sources */,
+				0919770627BFF5DF009B899E /* Differential Equation.swift in Sources */,
 				091976F127BFF5C9009B899E /* Differential_1D_SchrodingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
