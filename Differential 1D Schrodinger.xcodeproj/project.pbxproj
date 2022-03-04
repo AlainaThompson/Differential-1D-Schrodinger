@@ -19,6 +19,7 @@
 		091976F527BFF5C9009B899E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091976CA27BFF5C9009B899E /* Assets.xcassets */; };
 		0919770527BFF5DF009B899E /* Differential Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919770427BFF5DF009B899E /* Differential Equation.swift */; };
 		0919770627BFF5DF009B899E /* Differential Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919770427BFF5DF009B899E /* Differential Equation.swift */; };
+		092A602627D27AB60090CD22 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 092A602527D27AB60090CD22 /* CorePlot */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092A602627D27AB60090CD22 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +105,7 @@
 				091976C827BFF5C6009B899E /* Differential_1D_SchrodingerApp.swift */,
 				091976C927BFF5C6009B899E /* ContentView.swift */,
 				0919770427BFF5DF009B899E /* Differential Equation.swift */,
+				092A603027D27EE60090CD22 /* Core Plot Files */,
 				091976CA27BFF5C9009B899E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -145,6 +148,13 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		092A603027D27EE60090CD22 /* Core Plot Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Core Plot Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,6 +188,9 @@
 			dependencies = (
 			);
 			name = "Differential 1D Schrodinger (macOS)";
+			packageProductDependencies = (
+				092A602527D27AB60090CD22 /* CorePlot */,
+			);
 			productName = "Differential 1D Schrodinger (macOS)";
 			productReference = 091976D527BFF5C9009B899E /* Differential 1D Schrodinger.app */;
 			productType = "com.apple.product-type.application";
@@ -253,6 +266,9 @@
 				Base,
 			);
 			mainGroup = 091976C227BFF5C5009B899E;
+			packageReferences = (
+				092A602427D27AB60090CD22 /* XCRemoteSwiftPackageReference "core-plot" */,
+			);
 			productRefGroup = 091976D027BFF5C9009B899E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -699,6 +715,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		092A602427D27AB60090CD22 /* XCRemoteSwiftPackageReference "core-plot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/core-plot/core-plot/";
+			requirement = {
+				branch = "release-2.4";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		092A602527D27AB60090CD22 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 092A602427D27AB60090CD22 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 091976C327BFF5C5009B899E /* Project object */;
 }
